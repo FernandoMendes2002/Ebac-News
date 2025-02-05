@@ -20,6 +20,9 @@
                     <button type="submit">Pesquisar</button>
                 </form>
             </div>
+            <div class="botao-menu">
+                <button type="button">Abrir Menu</button>
+            </div>
             <nav class="container">
                 <ul class="menu">
                     <li>
@@ -60,7 +63,7 @@
                     <h2>Em Destaque</h2>
                     <article class="noticia">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" />
+                            <img src="https://via.placeholder.com/320x320"/>
                             <h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             </h3>
@@ -72,7 +75,7 @@
                     <div class="noticias">
                         <article class="noticia">
                             <a href="#">
-                                <img src="https://via.placeholder.com/320x320" />
+                                <img src="https://via.placeholder.com/320x320"/>
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </h3>
@@ -80,7 +83,7 @@
                         </article>
                         <article class="noticia">
                             <a href="#">
-                                <img src="https://via.placeholder.com/320x320" />
+                                <img src="https://via.placeholder.com/320x320"/>
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </h3>
@@ -88,7 +91,7 @@
                         </article>
                         <article class="noticia">
                             <a href="#">
-                                <img src="https://via.placeholder.com/320x320" />
+                                <img src="https://via.placeholder.com/320x320"/>
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </h3>
@@ -96,7 +99,7 @@
                         </article>
                         <article class="noticia">
                             <a href="#">
-                                <img src="https://via.placeholder.com/320x320" />
+                                <img src="https://via.placeholder.com/320x320"/>
                                 <h3>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 </h3>
@@ -110,7 +113,7 @@
                     <h2>Novidades</h2>
                     <article class="noticia">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" />
+                            <img src="https://via.placeholder.com/320x320"/>
                             <h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             </h3>
@@ -118,7 +121,7 @@
                     </article>
                     <article class="noticia">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" />
+                            <img src="https://via.placeholder.com/320x320"/>
                             <h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             </h3>
@@ -126,7 +129,7 @@
                     </article>
                     <article class="noticia">
                         <a href="#">
-                            <img src="https://via.placeholder.com/320x320" />
+                            <img src="https://via.placeholder.com/320x320"/>
                             <h3>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </h3>
@@ -135,5 +138,13 @@
                 </section>
             </aside>
         </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $('.botao-menu button').click(function() {
+                    $('.menu').slideToggle();
+                })
+            })
+        </script>
     </body>
 </html>
